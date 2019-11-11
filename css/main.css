@@ -52,3 +52,54 @@ nav a:hover {
   background-color: #333;
   color: #fff;
 }
+
+@media only screen and (min-width: 25rem) {
+
+  nav li {
+    display: inline-block;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 38rem) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+}
+
+@media only screen and (min-width: 60rem) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+  }
+
+  h1, nav {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  h1 {
+    margin-bottom: 0;
+    margin-right: 1.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 90rem) {
+
+  html {
+    font-size: 130%;
+  }
+
+}
