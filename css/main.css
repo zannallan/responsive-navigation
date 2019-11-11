@@ -53,7 +53,7 @@ nav a:hover {
   color: #fff;
 }
 
-@media only screen and (min-width: 25rem) {
+@media only screen and (min-width: 25em) {
 
   nav li {
     display: inline-block;
@@ -62,7 +62,7 @@ nav a:hover {
 
 }
 
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 38em) {
 
   html {
     font-size: 110%;
@@ -71,7 +71,7 @@ nav a:hover {
 
 }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 60em) {
 
   html {
     font-size: 120%;
